@@ -1,3 +1,4 @@
+//oops class constructor
 import java.util.Scanner;
 class Student{
     String name;
