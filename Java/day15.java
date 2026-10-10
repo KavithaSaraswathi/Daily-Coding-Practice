@@ -34,7 +34,7 @@ public class day15{
         String name=scan.nextLine();
         System.out.print("Base Salary:");
         double sal=scan.nextDouble();
-        System.out.println("Bonus:");
+        System.out.print("Bonus:");
         double bonus=scan.nextDouble();
         Employee dev=new Developer(name,sal,bonus);
         dev.displayDetail();
