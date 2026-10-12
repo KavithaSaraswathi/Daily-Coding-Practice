@@ -9,7 +9,7 @@ def min_subarray_len(x,y):
             min_length=min(length,min_length)
             window_sum-=x[left]
             left+=1
-    return min_length
+    return 0 if min_length == float("inf") else min_length
 
 
 a=list(map(int,input().split()))
